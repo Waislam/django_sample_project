@@ -29,7 +29,6 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = env("SECRET_KEY")
-# SECRET_KEY = 'django-insecure-trge&x*0r7$76ye#lu*d4xn%lt)@i86&xsu3v-xrsy&qmfivls'
 
 
 
@@ -104,16 +103,6 @@ DATABASES = {
            'PORT': env("SQL_PORT"),
        }
     }
-# DATABASES = {
-#        'default': {
-#            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#            'NAME': "sampleprojectdb",
-#            'USER': "sampleprojectdb_user",
-#            'PASSWORD': "12345678",
-#            'HOST': "127.0.0.1",
-#            'PORT': "5432",
-#        }
-#     }
 
 
 # Password validation
